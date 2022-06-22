@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>Happy Review</title>
+  </head>
+  <body>
+    <header class="header">
+        <img src="images/happy-review.svg" alt="" />
+    </header>
+
+    <section class="content-wrap">
+        <div class="logo"><img src="images/logo.svg" alt=""></div>
+        <div class="title mt-27 mb-27">Review the Legitmark iOS App</div>
+        <div class="alerts time mt-23 mb-23">
+          <div class="icon">
+            <img src="images/time-icon.svg" alt="" />
+          </div>
+          <div class="content">
+            The last 100 reviewers took about 2 minutes and 30 seconds to review
+          </div>
+        </div>
+        <div class="alerts gift">
+          <div class="icon">
+            <img src="images/gift-icon.svg" alt="" />
+          </div>
+          <div class="content">
+            Legitmark is providing 5 free authentication requests for each certified review.
+          </div>
+        </div>
+        <div class="title mt-33">Tell the world about Legitmark</div>
+
+        <form class="review-form">
+          <div class="steps">
+            <div class="step-title mb-15">
+              <strong>Step 1 </strong><br />
+              Open the App Store Rating
+            </div>
+            <a href="#" class="start-cta">Start Rating <img src="images/exit.svg" alt="" /></a>
+            <div class="step-title mt-25">
+              <strong>Step 2 </strong><br />
+              Start screen recording. Write, and submit review.
+            </div>
+            <div class="step-title mt-25 mb-15">
+              <strong>Step 3 </strong><br />
+              Upload Screen Recording
+            </div>
+            <div class="upload-btn-wrapper">
+              <button class="step-cta" id="fileUploadHandler">Choose a Screen Recording <img src="images/file.svg" alt="" /></button>
+              <input type="file" name="myfile" id="fileUpload" />
+            </div>
+          </div>
+          <div class="title mb-9">Tell Legitmark how they did</div>
+          <div class="mb-38">Ratings in this section are not shared</div>
+          <div class="rate-title">
+            <strong>Results Accuracy </strong><br/>How detailed were your results?
+          </div>
+          <fieldset class="rate">
+            <input type="radio" id="accuracy5" name="result-accuracy" value="5" />
+            <label for="saccuracy5" title="text">5 stars</label>
+            <input type="radio" id="accuracy4" name="result-accuracy" value="4" />
+            <label for="accuracy4" title="text">4 stars</label>
+            <input type="radio" id="accuracy3" name="result-accuracy" value="3" />
+            <label for="accuracy3" title="text">3 stars</label>
+            <input type="radio" id="accuracy2" name="result-accuracy" value="2" />
+            <label for="accuracy2" title="text">2 stars</label>
+            <input type="radio" id="accuracy1" name="result-accuracy" value="1" />
+            <label for="accuracy1" title="text">1 star</label>
+          </fieldset>
+          <div class="rate-title">
+            <strong>Member Support (If used) </strong><br/>Did Member Support help you where needed?
+          </div>
+          <fieldset class="rate">
+            <input type="radio" id="support5" name="member-support" value="5" />
+            <label for="ssupport5" title="text">5 stars</label>
+            <input type="radio" id="support4" name="member-support" value="4" />
+            <label for="support4" title="text">4 stars</label>
+            <input type="radio" id="support3" name="member-support" value="3" />
+            <label for="support3" title="text">3 stars</label>
+            <input type="radio" id="support2" name="member-support" value="2" />
+            <label for="support2" title="text">2 stars</label>
+            <input type="radio" id="support1" name="member-support" value="1" />
+            <label for="support1" title="text">1 star</label>
+          </fieldset>
+          <div class="rate-title">
+            <strong>Turnaround Time </strong><br/>Was the turnaround time reasonable?
+          </div>
+          <fieldset class="rate">
+            <input type="radio" id="turnaround5" name="turnaround-time" value="5" />
+            <label for="sturnaround5" title="text">5 stars</label>
+            <input type="radio" id="turnaround4" name="turnaround-time" value="4" />
+            <label for="turnaround4" title="text">4 stars</label>
+            <input type="radio" id="turnaround3" name="turnaround-time" value="3" />
+            <label for="turnaround3" title="text">3 stars</label>
+            <input type="radio" id="turnaround2" name="turnaround-time" value="2" />
+            <label for="turnaround2" title="text">2 stars</label>
+            <input type="radio" id="turnaround1" name="turnaround-time" value="1" />
+            <label for="turnaround1" title="text">1 star</label>
+          </fieldset>
+          <div class="input-wrap">
+            <label class="form-label" for="feedback">Other Feedback</label>
+            <textarea class="form-input" id="feedback" rows="6" placeholder="Write something helpful here…"></textarea>
+          </div>
+          <div class="input-wrap mt-18">
+            <label class="form-label" for="feedback">Email Address</label>
+            <input type="text" class="form-input" id="feedback" rows="6" placeholder="hello@legitmark.com" />
+          </div>
+          <button type="submit" class="submit-btn mt-33">Submit Review</button>
+        </form>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
