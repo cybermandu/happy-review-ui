@@ -377,6 +377,10 @@ img {
     border: 1px solid #000;
 }
 
+.text-area {
+    resize: none;
+}
+
 .submit-btn {
     background: #202020;
     border: 1px solid #000000;
