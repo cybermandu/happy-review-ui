@@ -107,10 +107,14 @@
             <textarea class="form-input text-area" id="feedback" rows="6" placeholder="Write something helpful here…"></textarea>
           </div>
           <div class="input-wrap mt-18">
-            <label class="form-label" for="feedback">Email Address</label>
-            <input type="text" class="form-input" id="feedback" rows="6" placeholder="hello@legitmark.com" />
+            <label class="form-label" for="email">Email Address</label>
+            <input type="text" class="form-input" id="email" rows="6" placeholder="hello@legitmark.com" />
           </div>
-          <button type="submit" class="submit-btn mt-33">Submit Review</button>
+          <div class="input-wrap error mt-18">
+            <div class="error-msg submitted"><img src="images/danger.svg" alt=""> You’ve already submitted a review.</div>
+            <div class="error-msg missing"><img src="images/danger.svg" alt=""> Please complete all fields.</div>
+          </div>
+          <button type="submit" class="submit-btn mt-33" id="submitBtn">Submit Review</button>
         </form>
     </section>
 

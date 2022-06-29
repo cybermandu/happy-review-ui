@@ -56,6 +56,13 @@ img {
     margin-left: 9px;
 }
 
+.content {
+    font-size: 17px;
+    line-height: 20px;
+    max-width: 279px;
+    margin: 0 auto;
+}
+
 .mt-27 {
     margin-top: 27px;
 }
@@ -88,12 +95,21 @@ img {
     margin-top: 18px;
 }
 
+.mb-18 {
+    margin-bottom: 18px;
+}
+
 .mb-15 {
     margin-bottom: 15px;
 }
 
 .mb-9 {
     margin-bottom: 9px;
+}
+
+.fs-17 {
+    font-size: 17px;
+    line-height: 20px;
 }
 
 .alerts {
@@ -271,6 +287,7 @@ img {
     padding: 16px;
     width: 100%;
     cursor: pointer;
+    border: none;
 }
 
 .start-cta img {
@@ -393,6 +410,27 @@ img {
     padding: 16px;
     width: 100%;
     cursor: pointer;
+}
+
+.error {
+    color: #E23F1B;
+    display: none;
+}
+
+.error img {
+    vertical-align: initial;
+}
+
+.error-msg {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.center {
+    text-align: center;
 }
 
 @media (min-width: 768px) {
